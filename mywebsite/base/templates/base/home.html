@@ -1,0 +1,219 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="{% static 'css/main.css' %}" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shaswata Saha - Resume</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <!-- Font Awesome CSS -->
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #1a1a1a;
+        color: #ffffff;
+        padding: 20px;
+        line-height: 1.6;
+      }
+
+      .container {
+        max-width: 800px;
+        margin: 0 auto;
+      }
+
+      .profile {
+        text-align: center;
+        margin-bottom: 30px;
+      }
+
+      .profile img {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        margin-bottom: 20px;
+        border: 5px solid #17a2b8;
+      }
+
+      .section {
+        margin-bottom: 30px;
+      }
+
+      h1,
+      h2 {
+        color: #17a2b8;
+      }
+
+      .social-media {
+        margin-top: 20px;
+      }
+
+      .social-media a {
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 24px;
+        margin-right: 10px;
+      }
+
+      .skills-list {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 10px;
+      }
+
+      .skills-list span {
+        background-color: #333333;
+        color: #ffffff;
+        padding: 5px 10px;
+        border-radius: 5px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="profile">
+        <img src="{% static 'images/profile_4.jpg' %}" alt="Profile Picture" />
+        <h1>SHASWATA SAHA</h1>
+        <p>Engineering Student</p>
+        <p>Email: shaswata.ssaha@gmail.com | Phone: +91 9674 1775 12</p>
+        <p>
+          Portfolio:
+          <a href="https://acns.vercel.app" target="_blank">acns.vercel.app</a>
+        </p>
+        <div class="social-media">
+          <a
+            href="https://www.linkedin.com/in/shaswata-saha-74b209251"
+            target="_blank"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+          <a href="https://github.com/subhro1530" target="_blank"
+            ><i class="fab fa-github"></i
+          ></a>
+          <a href="https://acns.vercel.app" target="_blank"
+            ><i class="fas fa-globe"></i
+          ></a>
+          <a href="https://twitter.com/ShaswataSaha10" target="_blank"
+            ><i class="fab fa-twitter"></i
+          ></a>
+        </div>
+      </div>
+
+      <div class="section">
+        <h2>About Me</h2>
+        <p>
+          I am a seasoned developer with a proven track record of delivering
+          successful applications, underscored by my passion for cybersecurity
+          and proficiency in UI/UX, website, and Android development. With a
+          strong academic background, I have honed my skills to a high standard,
+          ensuring a well-rounded approach to problem-solving. My collaborations
+          with various startups have enriched my experience, and my coding
+          practices are characterized by elegance and precision. As a poised and
+          seasoned professional, I look forward to contributing innovative
+          solutions to your projects. I welcome the opportunity for further
+          discussion and collaboration.
+        </p>
+      </div>
+
+      <div class="section">
+        <h2>Experience</h2>
+        <h3>Here Technologies (IIT Bombay)</h3>
+        <p>December 2023</p>
+        <ul>
+          <li>
+            Collaborated with diverse teams at the IIT Bombay Here hackathon,
+            fostering an environment of shared expertise and cross-disciplinary
+            learning.
+          </li>
+          <li>
+            Gained firsthand exposure to real-world challenges in traffic
+            monitoring and security, aligning theoretical knowledge with
+            practical applications.
+          </li>
+          <li>
+            Received personalized guidance from the founder of HERE
+            Technologies, enriching my understanding of industry trends and
+            fostering a forward-looking approach in the development of the web
+            application system.
+          </li>
+        </ul>
+
+        <h3>Web Development</h3>
+        <p>2021 - Present</p>
+        <ul>
+          <li>
+            Demonstrated proficiency in application development, specializing in
+            Next.js technology—an integral subpart of the React
+            enterprise—showcasing an adept combination of functionality and
+            aesthetically pleasing UI/UX.
+          </li>
+          <li>
+            Successfully completed numerous freelancing projects, including the
+            creation of a dynamic news application (<a
+              href="https://pangeanews.vercel.app"
+              target="_blank"
+              >pangeanews.vercel.app</a
+            >).
+          </li>
+          <li>
+            Established an online presence through my freelancing website (<a
+              href="https://acns.vercel.app"
+              target="_blank"
+              >acns.vercel.app</a
+            >) strategically designed to attract and engage potential clients,
+            showcasing a diverse portfolio and my commitment to excellence in
+            project execution.
+          </li>
+        </ul>
+      </div>
+
+      <!-- Add more sections (Skills, Education, Achievements, etc.) as needed -->
+
+      <div class="section">
+        <h2>Skills</h2>
+        <div class="skills-list">
+          <span>UI/UX Designing</span>
+          <span>Security System</span>
+          <span>Penetration Testing</span>
+          <span>APIs</span>
+          <span>Linux & CLI</span>
+          <span>SQL</span>
+          <span>Java</span>
+          <span>Javascript</span>
+          <span>Python</span>
+          <span>C</span>
+          <span>Bash</span>
+          <span>Full Stack Web Development</span>
+          <span>Creativity</span>
+          <span>Time Management</span>
+          <!-- Add more skills here -->
+        </div>
+      </div>
+
+      <div class="section">
+        <h2>Social Media Links</h2>
+        <div class="social-media">
+          <a
+            href="https://www.linkedin.com/in/shaswata-saha-74b209251"
+            target="_blank"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+          <a href="https://github.com/subhro1530" target="_blank"
+            ><i class="fab fa-github"></i
+          ></a>
+          <a href="https://acns.vercel.app" target="_blank"
+            ><i class="fas fa-globe"></i
+          ></a>
+          <a href="https://twitter.com/ShaswataSaha10" target="_blank"
+            ><i class="fab fa-twitter"></i
+          ></a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
